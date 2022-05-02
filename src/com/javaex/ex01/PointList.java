@@ -35,8 +35,9 @@ public class PointList {
 		return crtPos;
 	}
 	
-	public get() {
+	public Point get(int index) {
 		
+		return pArray[index];
 	}
 	
 	
