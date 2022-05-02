@@ -44,7 +44,7 @@ public class MyListApp {
 		System.out.println("=============================");
 		
 		//for 다른표현법(향상된 for문)
-		for(Point p : pList) {	//plist 전체
+		for(Point p : pList) {	//pList 전체
 			System.out.println(p.toString());
 			System.out.println(p.getX());
 			System.out.println(p.getY());
