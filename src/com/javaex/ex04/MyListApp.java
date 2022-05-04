@@ -1,14 +1,18 @@
 package com.javaex.ex04;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class MyListApp {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		ArrayList<Point> pList = new ArrayList<Point>();
+//		ArrayList<Point> pList = new ArrayList<Point>();
+		List<Point> pList = new ArrayList<Point>();	//linkedlist랑 호환될 수 있게
+//		List<Point> pList = new LinkedList<Point>();	
 
+		
 		Point p01 = new Point(3, 5);
 		Point p02 = new Point(13, 15);
 		Point p03 = new Point(113, 115);
